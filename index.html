@@ -22,7 +22,7 @@
     <div id="container">
         <h1 style="font-size: 100PX; padding-left:40%;padding-top: 3%; font-family: fangsong; ">僕のハレム</h1>
         <div id="wrapper1">
-            <div id="logo" class="dis"> <img id="pic" src="img/by.png" alt="pic"> </div>
+            <div id="logo" class="dis"> <a href="https://cn.bing.com/"><img id="pic" src="img/by.png" alt="pic" > </a></div>
             <div class="dis">
                 <form class="formWidth" name="formLogin" target="_self" method="get"
                     action="https://cn.bing.com/search">
@@ -33,7 +33,7 @@
         </div>
 
         <div id="wrapper2">
-            <div id="logo" class="dis"> <img id="pic" src="img/bd.png" alt="pic"> </div>
+            <div id="logo" class="dis" ><a href="https://www.baidu.com/"><img id="pic" src="img/bd.png" alt="pic" > </a> </div>
             <div class="dis">
                 <form class="formWidth" target="_self" method="get" action=" https://www.baidu.com/s">
                     <input type="text" id="search-input" placeholder="please enter..." name="wd" class="text" />
@@ -44,7 +44,7 @@
 
 
         <div id="wrapper3">
-            <div id="logo" class="dis"> <img id="pic" src="img/gg.png" alt="pic"> </div>
+            <div id="logo" class="dis"> <a href="https://www.google.com/"><img id="pic" src="img/gg.png" alt="pic"> </a></div>
             <div class="dis">
                 <form class="formWidth" target="_self" method="get" action=" https://www.google.com/search">
                     <input type="text" id="search-input" placeholder="please enter..." name="q" class="text" />
@@ -101,17 +101,34 @@
                         <div>bilibili</div>
                     </a>
                 </tr>
-                <tr><a href="https://translate.google.cn/" target="_parent" class="tdLabel">
-                        <img src="https://image.picknewtab.com/navigation/1674210031.png!navigation150" name="connect"
-                            class="connect">
-                        <div>谷歌翻译 </div>
-
+                <tr>
+                    <a href="https://fanyi.qq.com/" target="_parent" class="tdLabel"><img alt="腾讯 "
+                            src="https://fanyi.qq.com/images/logo.c149f2b6.png"
+                            name="connect" class="connect">
+                        <div>腾讯翻译</div>
                     </a>
                 </tr>
+
+            
+                <tr>
+                    <a href="https://fanyi.youdao.com/" target="_parent" class="tdLabel"><img alt="有道 "
+                            src="https://shared.ydstatic.com/fanyi/fanyi-ad-place/online/0.0.11/images/logo_cidian.png"
+                            name="connect" class="connect">
+                        <div>有道翻译</div>
+                    </a>
+                </tr>
+              
                 <tr>
                     <a href="https://airportal.cn/" target="_parent" class="tdLabel">
                         <img src="img/AirPortal.png" name="connect" class="connect">
                         <div>空投</div>
+                    </a>
+
+                </tr>
+                <tr>
+                    <a href="https://tv.hbys.top" target="_parent" class="tdLabel">
+                        <img src="https://tv.hbys.top/img/logo.ccfbeca2.png" name="connect" class="connect">
+                        <div>简影</div>
                     </a>
 
                 </tr>
@@ -193,13 +210,13 @@
                 </tr>
 
 
-                <tr>
-                    <a href="https://fanyi.youdao.com/" target="_parent" class="tdLabel"><img alt="有道 "
-                            src="https://shared.ydstatic.com/fanyi/fanyi-ad-place/online/0.0.11/images/logo_cidian.png"
-                            name="connect" class="connect">
-                        <div>有道翻译</div>
-                    </a>
-                </tr>
+                <tr><a href="https://translate.google.cn/" target="_parent" class="tdLabel">
+                    <img src="https://image.picknewtab.com/navigation/1674210031.png!navigation150" name="connect"
+                        class="connect">
+                    <div>谷歌翻译 </div>
+
+                </a>
+            </tr>
                 <tr>
                     <a href="https://store.epicgames.com/zh-CN/free-games" target="_parent" class="tdLabel"><img
                             alt="Epic"
@@ -233,7 +250,9 @@
     <script>UpdateImg()</script>
 
     <!-- <script src="//res.zvo.cn/translate/translate.js"></script> -->
-    <script> translate.execute();</script>   <!-- //进行翻译  -->
+
+    <!-- <script> translate.execute();</script>   -->
+     <!-- //进行翻译  -->
  
 
 
