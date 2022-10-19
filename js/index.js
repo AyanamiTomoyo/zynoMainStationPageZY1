@@ -26,6 +26,10 @@ function UpdateImg() {
 }
 
 
+window.onload = function(){   
+    document.forms[0].q.focus();   
+}   
+
 //链接图标放大缩小
 var bigger = document.getElementsByClassName("connect");
 var arr = Array.from(bigger);
@@ -46,14 +50,6 @@ arr.forEach(element => {
         small(element);
     }
 })
-
-
-
-
-
-
-
-
 
 
 
