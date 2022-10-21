@@ -55,20 +55,20 @@ arr.forEach(element => {
 
 //刷新
 // var bForceGet1 = true;
-// function Refresh(bForceGet) {
+// function Refresh() {
 //     console.log(bForceGet);
-//     if (bForceGet) {
-//         window.location.reload();
-//         console.log("已刷新"+bForceGet);
-//         bForceGet = false;
-//     }
+    // if (bForceGet) {
+        // window.location.reload();
+        // console.log("已刷新");
+    //     bForceGet = false;
+    // }
 //   console.log(bForceGet);
 // }
 
 
 
 //版本号
-console.log('V21021-2');
+console.log('V21021-3');
 
 
 //引入翻译，暂时无用
