@@ -2,7 +2,7 @@
 function UpdateImg() {
     var num;
     num = Math.floor(Math.random() * 12);
-    console.log(num);
+    // console.log(num);
     var path = ["https://s3.bmp.ovh/imgs/2022/09/21/2146c23d97e99db1.jpg",
         "https://s3.bmp.ovh/imgs/2022/09/21/145173a79e0dbcfe.jpg",
         "https://s3.bmp.ovh/imgs/2022/09/21/87a7a649bb82a16b.jpg",
@@ -16,13 +16,13 @@ function UpdateImg() {
         "https://s3.bmp.ovh/imgs/2022/09/21/6f142364e3267315.jpg",
         "https://s3.bmp.ovh/imgs/2022/09/21/e40aa15b9b90d159.jpg"
     ];
-    console.log(path[num]);
+    // console.log(path[num]);
     var res = 'url(' + path[num] + ')';
     // var path;
     // path = 'url(./img/' + num + '.jpg)';
 
     document.getElementById('bg').style.backgroundImage = res;
-    console.log(document.getElementById('bg'));
+    // console.log(document.getElementById('bg'));
 }
 
 
@@ -54,14 +54,21 @@ arr.forEach(element => {
 
 
 //刷新
-var bForceGet = ture;
-function Refresh() {
-    if (bForceGet) {
-        window.location.reload();
-    }
-    bForceGet = false;
-}
+// var bForceGet1 = true;
+// function Refresh(bForceGet) {
+//     console.log(bForceGet);
+//     if (bForceGet) {
+//         window.location.reload();
+//         console.log("已刷新"+bForceGet);
+//         bForceGet = false;
+//     }
+//   console.log(bForceGet);
+// }
 
+
+
+//版本号
+console.log('V21021-1');
 
 
 //引入翻译，暂时无用
