@@ -52,8 +52,12 @@ arr.forEach(element => {
 })
 
 
-
-
+var bForceGet= ture;
+//刷新
+function Refresh(){
+    location.reload([bForceGet])
+    bForceGet = false;
+}
 
 
 
