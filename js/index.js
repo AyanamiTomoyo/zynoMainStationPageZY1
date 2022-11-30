@@ -68,7 +68,7 @@ arr.forEach(element => {
 
 
 //版本号
-console.log('V31117');
+console.log('V31130');
 
 
 //引入翻译，暂时无用
