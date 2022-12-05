@@ -1,7 +1,7 @@
 //背景变更
 function UpdateImg() {
     var num;
-    num = Math.floor(Math.random() * 12);
+    num = Math.floor(Math.random() * 13);
     // console.log(num);
     var path = [
         // "https://s3.bmp.ovh/imgs/2022/09/21/2146c23d97e99db1.jpg",
@@ -19,7 +19,8 @@ function UpdateImg() {
         "https://s3.bmp.ovh/imgs/2022/09/21/e8694ec2c32073a2.jpg",
         "https://s3.bmp.ovh/imgs/2022/09/21/6f142364e3267315.jpg",
         // "https://s3.bmp.ovh/imgs/2022/09/21/e40aa15b9b90d159.jpg"
-        "https://s3.uuu.ovh/imgs/2022/12/01/7765917328709c21.jpg"
+        "https://s3.uuu.ovh/imgs/2022/12/01/7765917328709c21.jpg",
+        "https://s3.uuu.ovh/imgs/2022/12/05/ae04d3716a770a17.jpg"
     ];
     // console.log(path[num]);
     var res = 'url(' + path[num] + ')';
@@ -73,7 +74,7 @@ arr.forEach(element => {
 
 
 //版本号
-console.log('V31201');
+console.log('V31205');
 
 
 //引入翻译，暂时无用
