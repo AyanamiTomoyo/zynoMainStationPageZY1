@@ -5,9 +5,9 @@ function UpdateImg() {
     // console.log(num);
     var path = [
         // "https://s3.bmp.ovh/imgs/2022/09/21/2146c23d97e99db1.jpg",
-        "https://s3.uuu.ovh/imgs/2022/12/01/7d94ec04f4999c45.jpg",
+        "https://s3.bmp.ovh/imgs/2022/12/01/7d94ec04f4999c45.jpg",
         // "https://s3.bmp.ovh/imgs/2022/09/21/145173a79e0dbcfe.jpg",
-        "https://s3.uuu.ovh/imgs/2022/12/01/fb7a599c5287b552.jpg",
+        "https://s3.bmp.ovh/imgs/2022/12/01/fb7a599c5287b552.jpg",
         "https://s3.bmp.ovh/imgs/2022/09/21/87a7a649bb82a16b.jpg",
         "https://s3.bmp.ovh/imgs/2022/09/21/f2950c14901d1704.jpg",
         "https://s3.bmp.ovh/imgs/2022/09/21/ea29f27cf9b90983.jpg",
@@ -19,8 +19,8 @@ function UpdateImg() {
         "https://s3.bmp.ovh/imgs/2022/09/21/e8694ec2c32073a2.jpg",
         "https://s3.bmp.ovh/imgs/2022/09/21/6f142364e3267315.jpg",
         // "https://s3.bmp.ovh/imgs/2022/09/21/e40aa15b9b90d159.jpg"
-        "https://s3.uuu.ovh/imgs/2022/12/01/7765917328709c21.jpg",
-        "https://s3.uuu.ovh/imgs/2022/12/05/ae04d3716a770a17.jpg"
+        "https://s3.bmp.ovh/imgs/2022/12/01/7765917328709c21.jpg",
+        "https://s3.bmp.ovh/imgs/2022/12/05/ae04d3716a770a17.jpg"
     ];
     // console.log(path[num]);
     var res = 'url(' + path[num] + ')';
@@ -74,7 +74,7 @@ arr.forEach(element => {
 
 
 //版本号
-console.log('V31205');
+console.log('V31214');
 
 
 //引入翻译，暂时无用
